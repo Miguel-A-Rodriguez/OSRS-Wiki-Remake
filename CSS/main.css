@@ -1,11 +1,33 @@
 html {
   font-family: sans-serif;
 }
-.flex-container {
-  display: flex;
-  flex-direction: row;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #c0a886;
+  list-style-type: none;
 }
-
 .osrs-logo {
   max-width: 200px;
+}
+.search {
+  background-color: white;
+}
+.header .mainpage-discussion ul {
+  display: flex;
+}
+.logo-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-start;
+}
+.osrs-logo {
+  margin-right: 1100px;
+  padding-right: 50px;
+}
+.logo-area .account-buttons li {
+  display: inline-block;
+  margin-left: 10px;
 }

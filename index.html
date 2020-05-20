@@ -16,42 +16,44 @@
   <body>
     <header>
       <!--Need to make seperate containers for elements close to each other/on diffferent lines-->
-        <div class="logo-area">
+        
+      <div class="logo-area">
           <a href=http://127.0.0.1:5500/index.html><img class="osrs-logo" src="img/osrswiki-logo.png" alt="logo" />
             </a>
-        </div>
+            <div class="account-buttons">
+              <ul>
+                <li>
+                  <a href="createaccount.html">
+                    Create account
+                  </a>
+                </li>
+                <li>
+                  <a href="login.html">
+                    Login
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         <div class="mainpage-discussion">
           <ul>
             <li>
-              <a href="mainpage.html">
+              <a href="#">
                 Main Page
               </a>
             </li>
             <li>
-              <a href="discussion.html">
+              <a href="#">
                 Discussion
               </a>
             </li>
           </ul>
         </div>
-        <div class="account-buttons">
+        
+        <div>
           <ul>
             <li>
-              <a href="createaccount.html">
-                Create account
-              </a>
-            </li>
-            <li>
-              <a href="login.html">
-                Login
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="search-bar">
-          <ul>
-            <li>
-              <input type="text" name="search" placeholder="Search OSRS Wiki" />
+              <input type="text" class="search" placeholder="Search OSRS Wiki" />
             </li>
             <li>
               <a href="searchicon.html">
