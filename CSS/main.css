@@ -22,12 +22,46 @@ html {
   flex-direction: row;
   align-items: center;
   align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: auto;
 }
-.osrs-logo {
-  margin-right: 1100px;
-  padding-right: 50px;
+.account-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
 }
-.logo-area .account-buttons li {
-  display: inline-block;
-  margin-left: 10px;
+.account-details .create-account {
+  margin-right: 20px;
+}
+.mainpage-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 300px;
+}
+.mainpage-discussion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.search-fields {
+  display: flex;
+  flex-direction: row;
+}
+.mainpage-buttons .mainpage-button-1 {
+  color: #000000;
+  margin-right: 5px;
+  background-color: #d9d0c1;
+}
+.mainpage-buttons .mainpage-button-2 {
+  color: black;
+}
+.login-html {
+  color: black;
+}
+.create-account {
+  color: black;
 }

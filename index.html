@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <STYLE>A {text-decoration: none;} </STYLE>
   </head>
   <body>
     <header>
@@ -21,14 +22,14 @@
           <a href=http://127.0.0.1:5500/index.html><img class="osrs-logo" src="img/osrswiki-logo.png" alt="logo" />
             </a>
             <div class="account-buttons">
-              <ul>
+              <ul class="account-details">
                 <li>
-                  <a href="createaccount.html">
+                  <a href="createaccount.html" class="create-account">
                     Create account
                   </a>
                 </li>
                 <li>
-                  <a href="login.html">
+                  <a href="login.html" class="login-html">
                     Login
                   </a>
                 </li>
@@ -36,22 +37,19 @@
             </div>
           </div>
         <div class="mainpage-discussion">
-          <ul>
+          <ul class="mainpage-buttons">
             <li>
-              <a href="#">
+              <a href="#" class="mainpage-button-1">
                 Main Page
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" class="mainpage-button-2">
                 Discussion
               </a>
             </li>
           </ul>
-        </div>
-        
-        <div>
-          <ul>
+            <ul class="search-fields">
             <li>
               <input type="text" class="search" placeholder="Search OSRS Wiki" />
             </li>
@@ -60,8 +58,10 @@
                 search icon
               </a>
             </li>
-          </ul>
+            </ul>
         </div>
+        
+       
     </header>
   </body>
 </html>
