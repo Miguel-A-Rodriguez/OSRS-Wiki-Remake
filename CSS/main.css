@@ -65,3 +65,70 @@ html {
 .create-account {
   color: black;
 }
+a {
+  color: #442b18;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.side-bar-nav {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  line-height: 25px;
+}
+.navigation-text {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  line-height: 25px;
+}
+.guides {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  line-height: 25px;
+}
+.guide-text {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  line-height: 25px;
+}
+.community {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  line-height: 25px;
+}
+.community-text {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  line-height: 25px;
+}
+.more-runescape {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  line-height: 25px;
+}
+.morers-text {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  line-height: 25px;
+}
+.tools {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  line-height: 25px;
+}
+.tools-text {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  line-height: 25px;
+}
