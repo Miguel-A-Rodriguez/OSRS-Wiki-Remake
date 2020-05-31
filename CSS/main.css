@@ -72,6 +72,10 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.side-navigation-bar {
+  width: 38%;
+}
+
 .side-bar-nav {
   display: flex;
   flex-direction: column;
@@ -131,4 +135,35 @@ a:hover {
   flex-direction: column;
   margin: 10px 0px;
   line-height: 25px;
+}
+
+.main-body-container {
+  display: flex;
+}
+.mainpage-header {
+  display: flex;
+  margin: 2.6em 1.75em 1.5em;
+}
+.mainpage-header .header-intro {
+  margin-right: 2em;
+}
+.mainpage-header .header-intro h1 {
+  font-size: 2.5em;
+  border: none;
+  margin: 0 0 0.15em;
+  font-weight: 600;
+}
+.mainpage-header .header-intro p {
+  display: block;
+  padding-right: 600px;
+  font-size: 2em;
+  line-height: 1.7em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.main-body-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
 }
