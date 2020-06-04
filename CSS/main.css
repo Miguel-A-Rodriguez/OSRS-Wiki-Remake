@@ -155,7 +155,7 @@ a:hover {
 }
 .mainpage-header .header-intro p {
   display: block;
-  padding-right: 600px;
+  padding-right: 200px;
   font-size: 2em;
   line-height: 1.7em;
   margin-block-start: 1em;
@@ -166,4 +166,12 @@ a:hover {
 .main-body-wrapper {
   display: flex;
   flex-direction: row-reverse;
+}
+.header-stats {
+  display: flex;
+  font-size: 1.5em;
+  width: 100%;
+  position: relative;
+  top: 110px;
+  line-height: 1.7em;
 }
