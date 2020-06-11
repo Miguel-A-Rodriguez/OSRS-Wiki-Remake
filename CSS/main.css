@@ -139,6 +139,7 @@ a:hover {
 
 .main-body-container {
   display: flex;
+  flex-direction: column;
 }
 .mainpage-header {
   display: flex;
@@ -158,10 +159,9 @@ a:hover {
   padding-right: 200px;
   font-size: 2em;
   line-height: 1.7em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+}
+.mainpage-header .header-intro {
+  display: inline-block;
 }
 .main-body-wrapper {
   display: flex;
@@ -171,7 +171,17 @@ a:hover {
   display: flex;
   font-size: 1.5em;
   width: 100%;
-  position: relative;
-  top: 110px;
   line-height: 1.7em;
+}
+.wrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 30px;
+}
+.header-stats {
+  height: 30%;
+}
+.first-box {
+  max-height: 100%;
 }
