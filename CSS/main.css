@@ -5,7 +5,6 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #c0a886;
   list-style-type: none;
 }
 .osrs-logo {
@@ -13,6 +12,12 @@ html {
 }
 .search {
   background-color: white;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+}
+.search-icon {
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
 }
 .header .mainpage-discussion ul {
   display: flex;
@@ -39,7 +44,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left: 300px;
+  padding-left: 296px;
 }
 .mainpage-discussion {
   display: flex;
@@ -53,8 +58,6 @@ html {
 }
 .mainpage-buttons .mainpage-button-1 {
   color: #000000;
-  margin-right: 5px;
-  background-color: #d9d0c1;
 }
 .mainpage-buttons .mainpage-button-2 {
   color: black;
@@ -136,10 +139,13 @@ a:hover {
   margin: 10px 0px;
   line-height: 25px;
 }
-
+body {
+  background-color: #c0a886;
+}
 .main-body-container {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .mainpage-header {
   display: flex;
@@ -173,15 +179,82 @@ a:hover {
   width: 100%;
   line-height: 1.7em;
 }
-.wrapper {
+.first-box-set {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 30px;
+  background-color: #e2dbc8;
 }
+
 .header-stats {
   height: 30%;
 }
-.first-box {
-  max-height: 100%;
+.first-box-set p {
+  font-size: 1em;
+  line-height: 1.75em;
+  color: #444e5a;
+  background-color: white;
+}
+.first-box-set b {
+  background-color: white;
+}
+.byline {
+  font-size: 0.9em;
+  color: #5c6168;
+}
+.first-box-set h2 {
+  color: black;
+  background-color: white;
+}
+.second-box-set {
+  margin-right: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-top: 20px;
+  background-color: #e2dbc8;
+}
+.second-box-set h2 {
+  width: 83.3%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  bottom: 4px;
+}
+.second-box-set img {
+  max-height: auto;
+  max-width: 275px;
+}
+.main-body-container {
+  background-color: #e2dbc8;
+}
+
+.mainpage-button-1 {
+  font-size: 1.4rem;
+  background-color: #e2dbc8;
+  position: relative;
+  top: 20px;
+}
+.mainpage-button-2 {
+  font-size: 1.4rem;
+  background-color: #e2dbc8;
+  position: relative;
+  top: 20px;
+}
+.account-details {
+  font-size: 1.4rem;
+}
+.side-navigation-bar {
+  font-size: 1.4rem;
+  width: 29%;
+}
+.side-navigation-bar p {
+  font-size: 1.4rem;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
